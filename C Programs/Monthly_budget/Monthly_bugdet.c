@@ -11,7 +11,7 @@ int main()
     float average_saving_per_month, average_expense_per_month;
     printf("Enter your monthly income :");
     scanf("%d", &monthly_income);
-    printf("Enter your monthly expenses  \n");
+    printf("\nEnter your monthly expenses  \n");
     printf("\nEnter your electricity bill :");
     scanf("%d", &electricity_bill);
     printf("\nEnter your Gas bill :");
