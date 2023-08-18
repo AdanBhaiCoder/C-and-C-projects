@@ -4,6 +4,7 @@ int main()
     int table,number=1;
     printf("Enter any number :");
     scanf("%d", &table);
+	printf("\n");
     han:
     if (number<=10) 
     {
@@ -11,5 +12,6 @@ int main()
         number++;
         goto han;
     }
+getch();
     
 }
