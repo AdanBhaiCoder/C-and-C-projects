@@ -1,6 +1,5 @@
 // This program is created to tell user the total price & litres for the distance which he/she wants to cover in kilometers.
 #include <stdio.h>
-#include <conio.h>
 int main()
 {
     printf("This program is created to tell total price & litres for the distance which he/she wants to cover in kilometers.\n");
@@ -8,7 +7,7 @@ int main()
     int mileage, petrol_price;
     printf("\nEnter your vehicle's mileage :");
     scanf("%d", &mileage);
-    printf("Enter the price of petrol :");
+    printf("Enter the current price of petrol :");
     scanf("%d", &petrol_price);
 my_goto:
     printf("\nEnter any value in kilometers :");
@@ -36,6 +35,6 @@ my_goto:
     printf("\n                                  |");
     printf("\n                                 / \\");
     printf("\n\n");
-    getch();
+    getche();
     return 0;
 }

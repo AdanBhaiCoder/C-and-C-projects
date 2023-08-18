@@ -1,6 +1,5 @@
 // This program is made to tell user a total price of distance & litre which he/she wants to cover in kilometers.
 #include <stdio.h>
-#include<conio.h>
 int main()
 {
     printf("\nThis program is created to tell user the total kilometers & litres for the distance which he/she wants to cover in \nspecific rupees.");
