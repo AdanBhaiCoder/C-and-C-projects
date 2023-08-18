@@ -11,11 +11,11 @@ int main()
 start:
 	cout << "\nEnter your vehicle's mileage :";
 	cin >> mileage;
-    cout <<"Enter the price of petrol :";
+    cout <<"Enter the current price of petrol :";
     cin >> petrol_price;
 	cout << "\nEnter any value in rupees :";
 	cin >> rupees;
-	kilometer_per_rupee = float(mileage) / float(petrol_price);
+	kilometer_per_rupee = (float)mileage / (float)petrol_price;
 	double total_kilometers = kilometer_per_rupee * rupees;
 	litre_per_rupee = 1.0 / float(petrol_price);
 	double total_litre = litre_per_rupee * rupees;
