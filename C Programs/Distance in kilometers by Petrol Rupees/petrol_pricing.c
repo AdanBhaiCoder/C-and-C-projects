@@ -1,8 +1,10 @@
 // This program is made to tell user a total price of distance & litre which he/she wants to cover in kilometers.
 #include <stdio.h>
+#include<conio.h>
 int main()
 {
     printf("\nThis program is created to tell user the total kilometers & litres for the distance which he/she wants to cover in \nspecific rupees.");
+
     float kilometer_per_rupee, petrol_price, mileage, litre_per_rupee, total_kilometers, total_litre;
     int rupees;
 
@@ -17,7 +19,7 @@ start:
     scanf("%d", &rupees);
     // This portion covers the calculation of kilometers................
 
-    kilometer_per_rupee = mileage / petrol_price;
+    kilometer_per_rupee = (float)mileage / (float)petrol_price;
     total_kilometers = kilometer_per_rupee * rupees;
 
     // This portion covers the calculation of litres................

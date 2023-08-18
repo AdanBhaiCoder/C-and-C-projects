@@ -14,21 +14,22 @@ my_goto:
     printf("\nEnter any value in kilometers :");
     scanf("%f", &kilometer);
     printf("\nKilometer = %.1f\n", kilometer);
-    price_per_kilometer = petrol_price / mileage;
+    price_per_kilometer = (float)petrol_price / (float)mileage;
     float total_price = price_per_kilometer * kilometer;
     litre_per_kilometer = 1.0 / mileage;
-    printf("\nThis is the value of litre per kilometer %f", litre_per_kilometer);
+
     float total_litre = litre_per_kilometer * kilometer;
     printf("\nThe %.1f kilometers distance will be covered in %.0f rupees & the petrol litres will be %.2f litres. \n", kilometer, total_price, total_litre);
     char condition;
-    printf("\nDo you want to run it again ? (Y/N)\n\n");
+    printf("\nRemember : The milage will never be the same , its vary from your behaviour of driving\n So don't be totally dependent on this value of rupees.....Thanks\n");
+    printf("\nDo you want to run it again ? (Y/N)");
     condition = getch();
     if (condition == 'y' || condition == 'Y')
     {
         goto my_goto;
     }
 
-    printf("Thankx for using this program   (`_`) ");
+    printf("\nThankx for using this program   (`_`) ");
     printf("\n");
     printf("                                 \\|");
     printf("\n                                  |\\");
