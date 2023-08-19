@@ -57,6 +57,7 @@ start:
         printf("\nYour Entered amount of petrol price will overflow your tank \nEnter amount in range of 2000\n");
         goto start;
     }
+    printf("\nDo not depend on this program, your mileage will never be the same when you change the behaviour of you driving\n");
     char condition;
     printf("\n Do you want to run again (Y/N)");
     condition = getch();

@@ -44,12 +44,14 @@ start:
 		{
 			cout << "\nThe " << rupees << " rupees of petrol will cover " << setprecision(2) << total_kilometers << "km & the petrol litres in that price will be " << setprecision(2) << total_litre << "L" << endl;
 		}
+		
 	}
 	else
 	{
 		cout << "\nYour Entered amount of petrol price will overflow your tank \nEnter amount in range of 2000\n";
 		goto start;
 	}
+	cout<<"\nDo not depend on this program, your mileage will never be the same when you change the behaviour of you driving\n";
 	getch();
 	return 0;
 }
