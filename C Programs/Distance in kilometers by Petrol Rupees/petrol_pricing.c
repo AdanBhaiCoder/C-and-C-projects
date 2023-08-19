@@ -1,6 +1,5 @@
 // This program is made to tell user a total price of distance & litre which he/she wants to cover in kilometers.
 #include <stdio.h>
-#include<conio.h>
 int main()
 {
     printf("\nThis program is created to tell user the total kilometers & litres for the distance which he/she wants to cover in \nspecific rupees.");
@@ -58,6 +57,7 @@ start:
         printf("\nYour Entered amount of petrol price will overflow your tank \nEnter amount in range of 2000\n");
         goto start;
     }
+    printf("\nDo not depend on this program, your mileage will never be the same when you change the behaviour of you driving\n");
     char condition;
     printf("\n Do you want to run again (Y/N)");
     condition = getch();

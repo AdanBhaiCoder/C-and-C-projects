@@ -54,7 +54,7 @@ start:
         goto start;
     }
     cout << endl
-         << "\nRemember : Do not dependent on this program, your mileage will never be the same as you change the behaviour of you driving \n";
+         << "\nDo not depend on this program, your mileage will never be the same when you change the behaviour of you driving \n";
     char condition;
     cout << "\nDo you want to run again (Y/N)";
     condition = getch();

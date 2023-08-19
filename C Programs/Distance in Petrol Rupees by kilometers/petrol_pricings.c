@@ -1,6 +1,5 @@
 // This program is created to tell user the total price & litres for the distance which he/she wants to cover in kilometers.
 #include <stdio.h>
-#include <conio.h>
 int main()
 {
     printf("This program is created to tell total price & litres for the distance which he/she wants to cover in kilometers.\n");
@@ -21,7 +20,7 @@ my_goto:
     float total_litre = litre_per_kilometer * kilometer;
     printf("\nThe %.1f kilometers distance will be covered in %.0f rupees & the petrol litres will be %.2f litres. \n", kilometer, total_price, total_litre);
     char condition;
-    printf("\nRemember : The milage will never be the same , its vary from your behaviour of driving\n So don't be totally dependent on this value of rupees.....Thanks\n");
+    printf("\nDo not depend on this program, your mileage will never be the same when you change the behaviour of you driving\n");
     printf("\nDo you want to run it again ? (Y/N)");
     condition = getch();
     if (condition == 'y' || condition == 'Y')
