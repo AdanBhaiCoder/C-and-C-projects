@@ -51,7 +51,7 @@ start:
 		cout << "\nYour Entered amount of petrol price will overflow your tank \nEnter amount in range of 2000\n";
 		goto start;
 	}
-	cout<<"\nDo not depend on this program, your mileage will never be the same when you change the behaviour of you driving\n";
+	cout<<"\nDo not depend on this program, your mileage will never be the same when you change the behaviour of your driving\n";
 	getch();
 	return 0;
 }
